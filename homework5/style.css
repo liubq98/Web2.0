@@ -1,0 +1,41 @@
+h1{
+	text-align: center;
+	font-size: 1.5em;
+	color: grey;
+}
+
+table{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid grey;
+	background-color: rgb(224, 224, 224);
+}
+
+input{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.num{
+	width: 60px;
+	height: 40px;
+	font-size: 25px;
+	font-family: Calibri;
+}
+
+#screen{
+	background-color: rgb(153, 153, 153);
+	text-align: right;
+	width: 270px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-family: Calibri;
+	color: white;
+}
+
+.lastc{
+	margin-bottom: 5px;
+}

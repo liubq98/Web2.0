@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>简单计算器</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="calculate.js"></script>
+</head>
+<body>
+	<h1>简单计算器</h1>
+	<table>
+		<tr>
+			<td colspan="4"><input id="screen" type="text" name="screen" value=""></td>
+		</tr>
+		<tr>
+			<td><input class="num" id="7" onclick="fun(this.id)" type="button" name="value" value="7"></td>
+			<td><input class="num" id="8" onclick="fun(this.id)" type="button" name="value" value="8"></td>
+			<td><input class="num" id="9" onclick="fun(this.id)" type="button" name="value" value="9"></td>
+			<td><input class="num" id="/" onclick="fun(this.id)" type="button" name="value" value="/"></td>
+		</tr>
+		<tr>
+			<td><input class="num" id="4" onclick="fun(this.id)" type="button" name="value" value="4"></td>
+			<td><input class="num" id="5" onclick="fun(this.id)" type="button" name="value" value="5"></td>
+			<td><input class="num" id="6" onclick="fun(this.id)" type="button" name="value" value="6"></td>
+			<td><input class="num" id="*" onclick="fun(this.id)" type="button" name="value" value="*"></td>
+		</tr>
+		<tr>
+			<td><input class="num" id="1" onclick="fun(this.id)" type="button" name="value" value="1"></td>
+			<td><input class="num" id="2" onclick="fun(this.id)" type="button" name="value" value="2"></td>
+			<td><input class="num" id="3" onclick="fun(this.id)" type="button" name="value" value="3"></td>
+			<td><input class="num" id="-" onclick="fun(this.id)" type="button" name="value" value="-"></td>
+		</tr>
+		<tr>
+			<td><input class="num" id="0" onclick="fun(this.id)" type="button" name="value" value="0"></td>
+			<td><input class="num" id="." onclick="fun(this.id)" type="button" name="value" value="."></td>
+			<td><input class="num" id="←" onclick="tui(this.id)" type="button" name="value" value="←"></td>
+			<td><input class="num" id="+" onclick="fun(this.id)" type="button" name="value" value="+"></td>
+		</tr>
+		<tr>
+			<td><input class="num lastc" id="(" onclick="fun(this.id)" type="button" name="value" value="("></td>
+			<td><input class="num lastc" id=")" onclick="fun(this.id)" type="button" name="value" value=")"></td>
+			<td><input class="num lastc" id="CE" onclick="qingchu()" type="button" name="value" value="CE"></td>
+			<td><input class="num lastc" id="=" onclick="result()" type="button" name="value" value="="></td>
+		</tr>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+可在 sign up/bin 文件夹里用 node signin.js 命令启动程序
+sign up/test/data.json 文件储存各个用户信息

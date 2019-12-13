@@ -1,0 +1,63 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	font-family: "Century Gothic", sans-serif;
+}
+
+h1{
+	font-size: 30px;
+}
+
+#test{
+	font-size: 20px;
+}
+
+.bu{
+	display: inline-block;
+}
+
+#time, #score{
+	width: 50px;
+}
+
+#sep{
+	height: 10px;
+}
+
+#prompt{
+	width: 140px;
+}
+
+#Instructions{
+	width: 650px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 15px;
+	font-family: Georgia, sans-serif;
+}
+
+#ins{
+	font-weight: bold;
+}
+
+#area{
+	width: 300px;
+	height: 175px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+.holes{
+	width: 20px;
+	height: 20px;
+	margin: 3px 5px 3px 5px;
+}

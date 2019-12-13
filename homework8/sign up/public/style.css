@@ -1,0 +1,112 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1{
+	background-color: rgb(135, 206, 235);
+	color: white;
+	border-radius: 10px;
+	font-size: 40px;
+}
+
+ul{
+	font-size: 23px;
+	list-style: none;
+}
+
+#all{
+	height: 380px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #778899;
+	font-size: 23px;
+	background-color: #778899;
+	color: white;
+	border-radius: 10px;
+	position: relative;
+}
+
+#sign{
+	border: 1px solid rgb(135, 206, 235);
+	height: 40px;
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 130px;
+	background-color: rgb(135, 206, 235);
+	color: white;
+	border-radius: 10px;
+	line-height: 38px;
+}
+
+/*.in{
+	display: inline-block;
+}*/
+
+input{
+	height: 20px;
+	width: 200px;
+	font-size: 18px;
+}
+
+#restart{
+	height: 30px;
+	width: 70px;
+	border: 1px solid #00FF00;
+	display: inline-block;
+	font-size: 23px;
+	background-color: #00FF00;
+	border-radius: 10px;
+	position: absolute;
+	box-shadow: 3px 4px 15px black;
+	left: 180px;
+	top: 330px;
+	opacity: 0.8;
+	cursor: pointer;
+	color: white;
+	font-size: 23px;
+	line-height: 20px;
+}
+
+#restart:hover{
+	opacity: 1;
+}
+
+#submit:hover{
+	opacity: 1;
+}
+
+#submit{
+	height: 30px;
+	width: 70px;
+	border: 1px solid #00FF00;
+	display: inline-block;
+	font-size: 23px;
+	background-color: #00FF00;
+	border-radius: 10px;
+	box-shadow: 3px 4px 15px black;
+	position: absolute;
+	left: 280px;
+	top: 330px;
+	opacity: 0.8;
+	cursor: pointer;
+	color: white;
+	font-size: 23px;
+	line-height: 20px;
+}
+
+#error{
+	position: absolute;
+	left: 50px;
+	top: 290px;
+	width: 310px;
+	opacity: 0;
+	color: red;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign in</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>注册</h1>
+	<div id="all">
+		<form action="/" method="post">
+			<div id="sign">用户注册</div>
+			<ul>
+				<li id="username"><span>名称：</span><input type="text" name="username" class="in"></li>
+			</ul>
+			<ul>
+				<li id="id"><span>学号：</span><input type="text" name="id" class="in"></li>
+			</ul>
+			<ul>
+				<li id="phone"><span>电话：</span><input type="text" name="phone" class="in"></li>
+			</ul>
+			<ul>
+				<li id="email"><span>邮箱：</span><input type="text" name="email" class="in"></li>
+			</ul>
+
+			<input type="text" name="error" id="error" disabled="disabled" value="">
+		
+			<input type="reset" id="restart" value="重置"/>
+			<input type="submit" id="submit" value="提交"/>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script src="act.js"></script>
+</body>
+</html>
