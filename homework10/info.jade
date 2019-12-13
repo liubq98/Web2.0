@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title info 	
+    meta(charset="utf-8") 	
+    link(rel="shortcut icon", href="") 	
+    link(rel="stylesheet", type="text/css", href="../public/stylesheets/style-info.css")
+  body
+    h1 详情 	
+    #all
+      form(action="/", method="get")
+        #sign 用户详情
+ 			
+        ul
+          li#username
+            span 名称：
+            input.in(type="text", name="username", disabled="disabled")
+ 			
+        ul
+          li#id
+            span 学号：
+            input.in(type="text", name="id", disabled="disabled")
+ 			
+        ul
+          li#phone
+            span 电话：
+            input.in(type="text", name="phone", disabled="disabled")
+ 			
+        ul
+          li#email
+            span 邮箱：
+            input.in(type="text", name="email", disabled="disabled") 	
+    script(type="text/javascript", src="../public/javascripts/jquery-1.11.2.min.js") 	
+    script(src="../public/javascripts/act.js")
